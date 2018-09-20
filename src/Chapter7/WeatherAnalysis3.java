@@ -20,6 +20,7 @@ public class WeatherAnalysis3 {
             int average= sum/days;
             System.out.println("The average weather is "+average);
             int larger=1;
+
             for(int i=0; i<days; i++){
                 if(average < weather[i]){
                      larger++;
