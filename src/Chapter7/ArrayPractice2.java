@@ -15,6 +15,7 @@ public class ArrayPractice2 {
         System.out.println(Arrays.toString(numbers1));
         //or
         int y=5;
+
         int [] numbers2={1,2,3,4,5};
         System.out.println(Arrays.toString(numbers2));
     }
