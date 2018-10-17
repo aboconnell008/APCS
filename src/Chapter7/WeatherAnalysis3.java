@@ -18,7 +18,7 @@ public class WeatherAnalysis3 {
 
     }
     public static void average (int sum, int days1, int days, int[] weather   ){//finding the average
-        double average= sum/days1;
+        double average= (double)sum/(double)days1;
         average = (Math.round(average * 10.0)) / 10.0;
         System.out.println("The average weather is "+average);
         int larger=1;
